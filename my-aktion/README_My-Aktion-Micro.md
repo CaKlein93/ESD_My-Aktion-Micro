@@ -1,11 +1,5 @@
 # ESD_My-aktion-Micro
 
-
-## My-Aktion-API-Gateway
-
-
-
-
 ## My-Aktion Backend Deployment
 
 ### Datenbank
@@ -46,10 +40,6 @@ Nach erstellen des Docker Image kann dieses [gestartet](https://docs.docker.com/
 Anzumerken ist, dass [Thorntail innerhalb von Docker mittels IP-V4](https://www.sipmann.com/socketException-protocol-family-unavailable-java-docker-wildfly.html) seine IP-Adresse erhalten muss, sonst kann die Anwendung nicht ausgeführt werden.
 
 
-
-
-
-## My-Aktion-frontend
 
 
 
