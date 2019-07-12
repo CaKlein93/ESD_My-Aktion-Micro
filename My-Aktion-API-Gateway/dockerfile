@@ -1,0 +1,4 @@
+FROM openjdk:latest
+ADD target/spring-boot-jwt-1.0-SNAPSHOT.jar MyAktionApiGateway.jar
+EXPOSE 8085
+ENTRYPOINT ["java","-jar", "MyAktionApiGateway.jar"]
