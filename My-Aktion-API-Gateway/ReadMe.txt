@@ -4,4 +4,5 @@ Run it in Docker container:
 
 Build the docker file once: docker build . -t secjwt
 
-Run it docker-compose up -d
+DockerCompose kann nicht gestartet werden, da MySql keinen HealthCheck an App schickt
+
