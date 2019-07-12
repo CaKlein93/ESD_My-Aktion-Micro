@@ -1,0 +1,24 @@
+version: '3'
+services:
+  mysql-docker-container:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=pasword
+      - MYSQL_DATABASE=bootdb
+      - MYSQL_USER=securityadmin
+      - MYSQL_PASSWORD=password
+    ports:
+      - 3306:3306
+    volumes:
+      - /data/mysql
+  spring-secapp:
+    image: secjwt
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql-docker-container
+    ports:
+      - 8085:8085
+    volumes:
+      - /data/spring-secapp
