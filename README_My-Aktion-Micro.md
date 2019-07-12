@@ -1,11 +1,3 @@
-# ESD_My-aktion-Micro
-
-
-## My-Aktion-API-Gateway
-
-
-
-
 ## My-Aktion Backend Deployment
 
 ### Datenbank
@@ -48,8 +40,6 @@ Anzumerken ist, dass [Thorntail innerhalb von Docker mittels IP-V4](https://www.
 
 
 
-
-## My-Aktion-frontend
 
 
 
