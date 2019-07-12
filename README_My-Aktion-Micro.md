@@ -15,7 +15,7 @@ Diese kann Lokal oder in Docker zur Verfügung stehen. (Ggf. die IP-Adresse im S
 Hier ein Link zum Deployment der [H2 in Docker](https://hub.docker.com/r/oscarfonts/h2/).
 Anzumerken ist, dass innerhalb Docker ein [Volume](https://docs.docker.com/storage/volumes/) zur Verfügung stehen muss, damit es als DATA_DIR verwendet werden kann.
 
-#### My-Aktion-backend
+### My-Aktion-backend
 
 #### Local deployment
 Innerhalb des Ordners \my-aktion sind alle notwendigen Artefakte enthalten, um die Anwendung mittels Maven zu bauen.
