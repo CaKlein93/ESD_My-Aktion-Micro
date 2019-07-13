@@ -1,6 +1,8 @@
 # my-aktion_orga-frontend
 
-## Project setup
+
+
+## Local setup
 ```
 npm install
 ```
@@ -9,21 +11,26 @@ npm install
 ```
 npm run serve
 ```
+ -> Http-Server wird automatisch gestartet. IP erschein in der CMD
 
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your tests
+
+## Docker setup
+
+### Docker image bauen
 ```
-npm run test
+docker build -t my-aktion_frontend .
 ```
 
-### Lints and fixes files
+### Docker container starten
 ```
-npm run lint
+docker run -it -p 8080:8080 --rm --name my-aktion_frontend_container my-aktion_frontend
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Hinweis:
+- Die URL's sind hart kodiert, diese müssen ggf. angepasst werden
+- Der Login mechanismus ist derzeit auskommentiert (router.js & Login.vue)
